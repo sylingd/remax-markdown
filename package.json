@@ -1,0 +1,31 @@
+{
+  "name": "remax-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "npm run build:lib && npm run build:es",
+    "build:es": "babel src --out-dir es --copy-files --config-file ./babel.es.json",
+    "build:lib": "babel src --out-dir lib --copy-files --config-file ./babel.lib.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@remax/one": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.13.10",
+    "@remax/one": "^2.13.1",
+    "node-fetch": "^2.6.1"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "react-markdown": "^4.0.0"
+  }
+}
