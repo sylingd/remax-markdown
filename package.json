@@ -2,17 +2,19 @@
   "name": "remax-markdown",
   "version": "1.0.0",
   "description": "",
+  "module": "es/index.js",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "es"
   ],
   "scripts": {
     "build": "npm run build:lib && npm run build:es",
     "build:es": "babel src --out-dir es --copy-files --config-file ./babel.es.json",
     "build:lib": "babel src --out-dir lib --copy-files --config-file ./babel.lib.json"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "ShuangYa",
+  "license": "MIT",
   "peerDependencies": {
     "@remax/one": "^2.0.0"
   },
