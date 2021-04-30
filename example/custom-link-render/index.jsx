@@ -23,7 +23,7 @@ const LinkRender = (props) => {
         className="h5-a"
         onTap={() =>
           navigateTo({
-            url: "/pages/view/index" + "?id=" + match[1],
+            url: "/pages/view/index?id=" + match[1],
           })
         }
       >
