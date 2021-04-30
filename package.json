@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.1",
-    "react-markdown": "^4.0.0"
+    "react-markdown": "^4.0.0",
+    "universal-env": "^3.2.2"
   }
 }

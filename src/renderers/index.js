@@ -1,8 +1,11 @@
 import ReactMarkdown from "react-markdown";
+import blockFactory from "./blockFactory";
 import code from "./code";
 import heading from "./heading";
+import image from "./image";
+import { list, listItem } from "./list";
+import table from "./table";
 import textFactory from "./textFactory";
-import blockFactory from "./blockFactory";
 
 const renderers = {
   ...ReactMarkdown.renderers,
@@ -17,6 +20,10 @@ const renderers = {
   linkReference: textFactory("a"),
   emphasis: textFactory("em"),
   inlineCode: textFactory("code"),
+  list,
+  listItem,
+  table,
+  image,
 };
 
 export default renderers;

@@ -46,6 +46,9 @@
 .h5-em {
 	font-style: italic;
 }
+.h5-pre {
+	background: #f0f0f0;
+}
 .h5-code{
 	background: #f0f0f0;
 	padding: 3px 5px;
@@ -55,4 +58,24 @@
 .h5-hr {
   display: block;
   border-bottom: 1px solid #dfe2e5;
+}
+
+.h5-ul,
+.h5-ol {
+  display: block;
+  padding-inline-start: 40px;
+}
+.h5-ul {
+  list-style-type: disc;
+}
+.h5-ol {
+  list-style-type: decimal;
+}
+.h5-li {
+  display: list-item;
+}
+
+.h5-img {
+  display: inline-block;
+  max-width: 100%;
 }
