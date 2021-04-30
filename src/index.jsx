@@ -14,4 +14,8 @@ const RemaxMarkdown = (props) => {
   return <ReactMarkdown {...props} renderers={newRenderers} />;
 };
 
+RemaxMarkdown.renderers = renderers;
+RemaxMarkdown.types = ReactMarkdown.types;
+RemaxMarkdown.uriTransformer = ReactMarkdown.uriTransformer;
+
 export default RemaxMarkdown;
