@@ -1,12 +1,13 @@
 {
   "name": "remax-markdown",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "module": "es/index.js",
   "main": "lib/index.js",
   "files": [
     "lib",
-    "es"
+    "es",
+    "README.md"
   ],
   "scripts": {
     "build": "npm run build:lib && npm run build:es",

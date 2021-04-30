@@ -44,15 +44,16 @@
   text-decoration: none;
 }
 .h5-em {
-	font-style: italic;
+  font-style: italic;
 }
 .h5-pre {
-	background: #f0f0f0;
+  background: #f0f0f0;
+  white-space: pre;
 }
-.h5-code{
-	background: #f0f0f0;
-	padding: 3px 5px;
-	word-wrap: break-word;
+.h5-code {
+  background: #f0f0f0;
+  padding: 3px 5px;
+  word-wrap: break-word;
 }
 
 .h5-hr {
