@@ -28,6 +28,10 @@ export default () => {
 
 APIs see [React Markdown's Documentation](https://github.com/remarkjs/react-markdown/tree/v4.3.1)
 
+## Example
+
+* [Custom link render](example/custom-link-render)
+
 ## Code highlight
 
 Implement your render by replace default `code` render.
