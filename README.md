@@ -1,5 +1,7 @@
 # Remax Markdown
 
+![npm](https://img.shields.io/npm/v/remax-markdown)
+
 Renders Markdown as pure React components, based on `react-markdown@4.3.1`, support [Remax](http://remaxjs.org/)
 
 ## Installing
@@ -13,9 +15,8 @@ yarn add remax-markdown
 ## Basic usage
 
 ```jsx
-import * as React from "react";
+import React from "react";
 import RemaxMarkdown from "remax-markdown";
-import text from "./text";
 
 export default () => {
   const source = `# Title\nContent`;
